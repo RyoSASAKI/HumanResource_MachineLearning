@@ -2,5 +2,10 @@
 In this repositry, I made a machine learning program to judge whether an employee could quit a company or not.
 This program was made to pass the graduation exam of AI job college (Tokyo).
 
-The header information is 
+The header information is left or not (Correct answer label), satisfaction_level, last_evaluation, number_project, average_montly_hours, time_spend_company, Work_accident, promotion_last_5years, sales and salary.
+Based on these information, this program judge.
+
+In this program, I used "scikit-learn".
+This is an open source to use machine learning. Using this open source, you can construct a machine learning program easily.
+I constructed 
 
