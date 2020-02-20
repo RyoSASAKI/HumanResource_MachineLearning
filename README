@@ -1,4 +1,6 @@
 # HumanResource_MachineLearning
+(last update : )
+
 In this repositry, I made a machine learning program to judge whether an employee could quit a company or not.
 This program was made to pass the graduation exam of AI job college (Tokyo).
 
@@ -11,5 +13,9 @@ This is an open source to use machine learning. Using this open source, you can 
 I constructed 5 patterns of machine learning, which are k-nearest neighbor algorithm (knn), logistic regression algorithm (logistic), 
 support vector machine (rsvc), gradient boost classifier (gb) and Multi-layer Perceptron classifier (mlp).
 
+Generally, machine learning algorithm is improved by standard scaling. Because of that, a standard scaler was included all pipelines.
 
+To evaluate which algorithm is the best, I derived 3 types of score of accuracy, f1 score and cross validation score.
+Based on these scores, you can choose the best model.
 
+This program is still improving.
